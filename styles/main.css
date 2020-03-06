@@ -143,7 +143,7 @@ input[type=text] {
     border-radius: 100px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 25px;
     font-family: Futura Heavy;
     margin: 4px 2px;
@@ -253,6 +253,13 @@ input[type=text] {
       width: 900px;
       text-align: left;
   }
+  .sectionVideo{
+    margin-top: 650px;
+    justify-items: center;
+  }
+  .video{
+    width: 100%;
+  }
   footer{
     display: flex;
     margin-top: 200px;
@@ -263,12 +270,18 @@ input[type=text] {
     align-content: center;
 
   }
+
   .footer-content{
     width: 100%;
   }
+
   .footer-title{
       font-size: 22px;
       margin-left: 180px;
+  }
+  .footer-input{
+    width: 100%;
+    display: flex;
   }
   .footer-terms{
       width: 900px;
@@ -280,13 +293,10 @@ input[type=text] {
   }
   .social{
       display: flex;
-      justify-content: space-between;
-      width: 500px;
-      margin-left: 700px;
-      margin-top: 80px;
-      padding-bottom: 60px;
-      
+      justify-content: center;
+      width: 100%;
   }
   .social-icons{
     cursor: pointer;
+    padding-left: 60px;
   }
