@@ -1,4 +1,8 @@
 
+*{
+    box-sizing: border-box;
+}
+
 html,body{
     margin: 0%;
     box-sizing: border-box;
@@ -179,8 +183,23 @@ input[type=text] {
   .slider{
       width: 100%;
       height: 1700px;
-      
+      background-color: #2f2f2f;;
   }
+  .slider{
+    .slider-section{
+        height: 200px;
+        &:nth-child(1){
+            background-color: #d15757;
+        }
+        &:nth-child(2){
+            background: #c70707;
+        }
+        &:nth-child(3){
+            background: #c70707;
+        }
+    }
+  }
+  
   .slogan{
       margin: 100px;
       margin-top: 800px;
@@ -233,13 +252,13 @@ input[type=text] {
       margin-left: 1350px;
   }
   .tabla{
-    margin-top: 600px;
-    margin-left: 80px;
+    margin-top: 33%;
+    margin-left: 10%;
   }
   .table{
       font-family: "Futura HeaveItalic";
       color: white;
-      margin-left: 200px;
+      margin-left: 10%;
       text-align: center;
       font-size: 40px;
   }
@@ -254,7 +273,7 @@ input[type=text] {
       text-align: left;
   }
   .sectionVideo{
-    margin-top: 650px;
+    margin-top: 15%;
     justify-items: center;
   }
   .video{
@@ -273,6 +292,7 @@ input[type=text] {
 
   .footer-content{
     width: 100%;
+    
   }
 
   .footer-title{
@@ -284,7 +304,7 @@ input[type=text] {
     display: flex;
   }
   .footer-terms{
-      width: 900px;
+      width: auto;
       text-align: left;
       display: flex;
       margin-top: 50px;

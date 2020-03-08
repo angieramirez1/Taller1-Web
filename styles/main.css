@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html, body {
   margin: 0%;
   -webkit-box-sizing: border-box;
@@ -227,6 +232,23 @@ h3 {
 .slider {
   width: 100%;
   height: 1700px;
+  background-color: #2f2f2f;
+}
+
+.slider .slider-section {
+  height: 200px;
+}
+
+.slider .slider-section:nth-child(1) {
+  background-color: #d15757;
+}
+
+.slider .slider-section:nth-child(2) {
+  background: #c70707;
+}
+
+.slider .slider-section:nth-child(3) {
+  background: #c70707;
 }
 
 .slogan {
@@ -299,14 +321,14 @@ h5 {
 }
 
 .tabla {
-  margin-top: 600px;
-  margin-left: 80px;
+  margin-top: 33%;
+  margin-left: 10%;
 }
 
 .table {
   font-family: "Futura HeaveItalic";
   color: white;
-  margin-left: 200px;
+  margin-left: 10%;
   text-align: center;
   font-size: 40px;
 }
@@ -324,7 +346,7 @@ th {
 }
 
 .sectionVideo {
-  margin-top: 650px;
+  margin-top: 15%;
   justify-items: center;
 }
 
@@ -362,7 +384,7 @@ footer {
 }
 
 .footer-terms {
-  width: 900px;
+  width: auto;
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
