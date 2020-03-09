@@ -404,9 +404,7 @@ h5 {
 }
 
 .play {
-  background-image: url("../images/7.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #EE2D24;
   padding-top: 15px;
   padding-left: 15%;
   height: 100%;
@@ -414,10 +412,13 @@ h5 {
 }
 
 .play-image {
-  margin-top: 18%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin-top: 0%;
+  padding-right: 200px;
+  height: 200px;
+}
+
+.play-titles {
+  margin: 0;
 }
 
 .interaction {
@@ -432,8 +433,16 @@ h5 {
   margin-left: 83%;
 }
 
+.table-container {
+  background-image: url("../images/9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding-top: 40%;
+  padding-bottom: 10%;
+}
+
 .tabla {
-  margin-top: 33%;
   margin-left: 10%;
 }
 
@@ -458,7 +467,6 @@ th {
 }
 
 .sectionVideo {
-  margin-top: 15%;
   justify-items: center;
 }
 
