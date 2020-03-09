@@ -9,8 +9,8 @@ html,body{
     overflow-x: hidden;
 }
 body{
-    background-image: url(/images/fondo.jpg);
-    background-size: cover;
+    /*background-image: url(/images/fondo.jpg);
+    background-size: cover;*/
 }
 a{
     text-decoration: none;
@@ -27,12 +27,14 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 .nav{
     padding: 0.2rem;
-    height: 0rem;
-    min-height: 60vh;
     overflow: hidden;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    
 }
 .logo{
     display: block;
@@ -40,12 +42,15 @@ ul{
     width: 120px;
     height: 120px;
     margin: auto;
+    
 }
 .nav .nav-logo{
     padding: 50px;
 }
 .nav .nav-menu{
     justify-content: space-between;
+    
+    
 }
 .nav .nav-list{
     display: flex;
@@ -86,20 +91,25 @@ input[type=text] {
   }
   .first-banner{
       position: absolute;
-      margin-left: 670px;
-      margin-top: -100px;
+      margin-left: 50%;
+      margin-top: 0px;
       width: 900px;
+      
   }
   main .site-title{
-    width: 600px;
+    width: 100%;
     justify-content: right;
     text-align: justify;
     display: flex;
-    margin-left: 110px;
-    margin-top: -350px;
+    background-image: url(../images/2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 19.2%;
   }
   main .first-container{
       text-align: left;
+      margin-top: 10%;
+      margin-left: 10%;
   }
   .description{
       color: white;
@@ -158,15 +168,22 @@ input[type=text] {
       height: 300px;
       margin-top: 0px;
       margin-left: -60px;
+      
   }
   .best-seller{
     display: flex;
-    margin-left: 110px;
     justify-content: right;
+    background-image: url('../images/3.jpg');
+    
+    height: 100%;
+    padding-bottom: 16%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .second-container{
-      margin-top: 400px;
-      width: 680px;
+    margin-left: 10%;
+    width: 680px;
   }
   h2{
       font-family: "Futura Heavy";

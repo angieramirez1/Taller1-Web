@@ -11,8 +11,8 @@ html, body {
 }
 
 body {
-  background-image: url(/images/fondo.jpg);
-  background-size: cover;
+  /*background-image: url(/images/fondo.jpg);
+    background-size: cover;*/
 }
 
 a {
@@ -44,9 +44,9 @@ ul {
 
 .nav {
   padding: 0.2rem;
-  height: 0rem;
-  min-height: 60vh;
   overflow: hidden;
+  background-image: url(../images/1.jpg);
+  background-size: cover;
 }
 
 .logo {
@@ -113,13 +113,13 @@ input[type=email] {
 
 .first-banner {
   position: absolute;
-  margin-left: 670px;
-  margin-top: -100px;
+  margin-left: 50%;
+  margin-top: 0px;
   width: 900px;
 }
 
 main .site-title {
-  width: 600px;
+  width: 100%;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
@@ -127,12 +127,16 @@ main .site-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 110px;
-  margin-top: -350px;
+  background-image: url(../images/2.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-bottom: 19.2%;
 }
 
 main .first-container {
   text-align: left;
+  margin-top: 10%;
+  margin-left: 10%;
 }
 
 .description {
@@ -205,14 +209,19 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 110px;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
+  background-image: url("../images/3.jpg");
+  height: 100%;
+  padding-bottom: 16%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .second-container {
-  margin-top: 400px;
+  margin-left: 10%;
   width: 680px;
 }
 
