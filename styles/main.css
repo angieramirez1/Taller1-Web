@@ -156,6 +156,7 @@ h1 {
   color: #db0000;
   font-family: "Futura ExtraBlack";
   font-size: 40px;
+  margin: 0px;
 }
 
 .btn1 {
@@ -243,7 +244,7 @@ h1 {
       -ms-flex-pack: right;
           justify-content: right;
   background-image: url("../images/3.jpg");
-  padding-top: 1.5%;
+  padding-top: 0.5%;
   height: 100%;
   padding-bottom: 16%;
   background-size: cover;
@@ -260,6 +261,19 @@ h2 {
   font-family: "Futura Heavy";
   color: white;
   font-size: 40px;
+  margin: 0px;
+  margin-left: 2.5%;
+}
+
+.best-selling {
+  padding-top: 10%;
+  font-size: 60px;
+}
+
+.best-selling2 {
+  padding-top: 10%;
+  font-size: 60px;
+  color: #ce1206;
 }
 
 h3 {
@@ -269,16 +283,29 @@ h3 {
   padding: 50px;
 }
 
-.slider {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (100%)[3];
-      grid-template-columns: repeat(3, 100%);
+.slider-container {
+  background-image: url("../images/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 22%;
+  height: 100%;
+}
+
+.slider-container2 {
+  background-image: url("../images/5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 16%;
 }
 
 .slider {
   overflow: hidden;
   scroll-behavior: smooth;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100%)[3];
+      grid-template-columns: repeat(3, 100%);
+  margin-top: 50px;
 }
 
 .slider section {
@@ -300,9 +327,8 @@ h3 {
   color: #ffffff;
   text-decoration: none;
   font-size: 10em;
-  background: black;
   width: 80px;
-  padding-top: 7%;
+  padding-top: 2%;
   text-align: center;
   z-index: 1;
 }
@@ -311,22 +337,15 @@ h3 {
   top: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(black));
-  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, black 100%);
 }
 
 .slider section a:nth-of-type(2) {
   top: 0;
   bottom: 0;
   right: 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(black));
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
 }
 
 .slogan {
-  margin: 100px;
-  margin-top: 800px;
-  padding: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -338,6 +357,11 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-image: url("../images/6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  height: 100%;
 }
 
 .switch {
@@ -378,7 +402,11 @@ h5 {
 }
 
 .play {
-  height: 600px;
+  background-image: url("../images/7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  height: 100%;
 }
 
 .interaction {
