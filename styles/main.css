@@ -203,6 +203,7 @@ h1 {
   font-size: 25px;
   font-family: "Futura Heavy";
   margin: 4px 2px;
+  margin-bottom: 0;
   cursor: pointer;
 }
 
@@ -220,6 +221,21 @@ h1 {
   display: flex;
   font-size: 20px;
   font-family: "Futura Heavy";
+  cursor: pointer;
+}
+
+.btn5 {
+  background-color: #b82c11;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+  position: relative;
+  padding: 30px;
+  margin-left: 8%;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   cursor: pointer;
 }
 
@@ -405,10 +421,17 @@ h5 {
 
 .play {
   background: #EE2D24;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 15px;
   padding-left: 15%;
   height: 100%;
   padding-bottom: 20%;
+}
+
+.play-item {
+  margin-top: 20%;
 }
 
 .play-image {
