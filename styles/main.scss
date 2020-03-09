@@ -227,6 +227,8 @@ input[type=text] {
       grid-template-columns: repeat(3,100%);
   }
   .slider{
+    overflow:hidden;
+    scroll-behavior: smooth;
     section{
         position: relative;
         width: 100%;
@@ -238,12 +240,12 @@ input[type=text] {
         }
         a{
           position: absolute;
-          color: #2f2f2f;
+          color: #ffffff;
           text-decoration: none;
-          font-size: 6em;
+          font-size: 10em;
           background: rgb(0, 0, 0);
           width: 80px;
-          padding-top: 100px;
+          padding-top: 7%;
           text-align: center;
           z-index: 1;
           &:nth-of-type(1){

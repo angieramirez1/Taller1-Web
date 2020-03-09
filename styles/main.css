@@ -276,6 +276,11 @@ h3 {
       grid-template-columns: repeat(3, 100%);
 }
 
+.slider {
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
 .slider section {
   position: relative;
   width: 100%;
@@ -292,12 +297,12 @@ h3 {
 
 .slider section a {
   position: absolute;
-  color: #2f2f2f;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 6em;
+  font-size: 10em;
   background: black;
   width: 80px;
-  padding-top: 100px;
+  padding-top: 7%;
   text-align: center;
   z-index: 1;
 }
