@@ -14,11 +14,6 @@ html, body {
   overflow-x: hidden;
 }
 
-body {
-  /*background-image: url(/images/fondo.jpg);
-    background-size: cover;*/
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -71,6 +66,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow: hidden;
 }
 
 .nav .nav-list {
@@ -561,6 +557,78 @@ footer {
   padding-left: 60px;
 }
 
+@media only screen and (max-width: 600px) {
+  .nav {
+    margin: 0;
+    background-image: url("../images/cel1.jpg");
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 20%;
+  }
+  .nav-list, .search, .nav-logo, .nav-links {
+    display: none;
+  }
+  .show-menu-btn {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+    color: white;
+  }
+  .show-menu-btn {
+    float: right;
+  }
+  .show-menu-btn i {
+    line-height: 100px;
+  }
+  .show-menu-btn {
+    float: right;
+  }
+  .site-title {
+    display: none;
+  }
+  .first-banner {
+    display: none;
+  }
+  .phone-title {
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: -100px;
+    font-family: Futura Book;
+  }
+  .phone-description-title {
+    margin-left: 25%;
+    margin-top: 15%;
+  }
+  .phone-section-2 {
+    margin: 0;
+    background-image: url("../images/cel2.jpg");
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding-bottom: 50%;
+  }
+}
+
 @font-face {
   font-family: Futura Bold;
   src: url("../fonts/Futura Bold Italic font.ttf");
@@ -584,5 +652,15 @@ footer {
 @font-face {
   font-family: Futura HeaveItalic;
   src: url("../fonts/Futura Heavy Italic font.ttf");
+}
+
+.show-menu-btn {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .show-menu-btn {
+    display: block;
+  }
 }
 /*# sourceMappingURL=main.css.map */
