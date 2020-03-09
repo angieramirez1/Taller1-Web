@@ -3,6 +3,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   margin: 0%;
   -webkit-box-sizing: border-box;
@@ -201,6 +205,29 @@ h1 {
   cursor: pointer;
 }
 
+.btn4 {
+  background-color: #ce1206;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin-left: 8%;
+  border-radius: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  font-family: "Futura Heavy";
+  cursor: pointer;
+}
+
+.item-price {
+  color: #ce1206;
+  font-size: 30px;
+  margin-left: 15%;
+}
+
 .splatoon-title {
   width: 600px;
   height: 300px;
@@ -252,6 +279,15 @@ h3 {
 .slider section {
   position: relative;
   width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[7];
+      grid-template-columns: repeat(7, auto);
+  margin: 0%;
+}
+
+.slider section .item {
+  padding: 0px 2px;
 }
 
 .slider section a {
@@ -280,18 +316,6 @@ h3 {
   right: 0;
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(black));
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
-}
-
-.slider section:nth-child(1) {
-  background: #918787;
-}
-
-.slider section:nth-child(2) {
-  background: #4e1414;
-}
-
-.slider section:nth-child(3) {
-  background: #c70707;
 }
 
 .slogan {
