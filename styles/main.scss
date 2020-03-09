@@ -387,16 +387,20 @@ input[type=text] {
       text-align: left;
   }
   .sectionVideo{
-    
     justify-items: center;
+    background-image: url('../images/10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .video{
     width: 100%;
   }
   footer{
+    background-image: url('../images/11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    margin-top: 200px;
-    
+    width: 100%;
   }
   .logo-footer{
     width: 800px;
@@ -429,6 +433,9 @@ input[type=text] {
       display: flex;
       justify-content: center;
       width: 100%;
+      background-image: url('../images/12.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
   }
   .social-icons{
     cursor: pointer;

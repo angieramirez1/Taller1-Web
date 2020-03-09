@@ -468,6 +468,9 @@ th {
 
 .sectionVideo {
   justify-items: center;
+  background-image: url("../images/10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .video {
@@ -475,10 +478,13 @@ th {
 }
 
 footer {
+  background-image: url("../images/11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 200px;
+  width: 100%;
 }
 
 .logo-footer {
@@ -522,6 +528,9 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  background-image: url("../images/12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .social-icons {
