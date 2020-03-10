@@ -184,13 +184,22 @@ input[type=text] {
     background-color: #b82c11;
     border-width: 10px;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(238, 238, 238);
     position: relative;
     padding: 30px;
     margin-left: 8%;
     border-radius: 100%;
     display: flex;
     cursor: pointer;
+  }
+  .btn5--red{
+    background-color: rgb(255, 0, 0);
+  }
+  .btn5--orange{
+    background-color: rgb(255, 115, 0);
+  }
+  .btn5--blue{
+    background-color: rgb(0, 217, 255);
   }
   .item-price{
     color:#ce1206;
@@ -331,9 +340,11 @@ input[type=text] {
     font-family: "Futura Bold";
     color: #cc3028;
     font-size: 50px;
-    margin-top: 0;
+    margin-top: 10%;
     margin-left: 10%;
+    margin-bottom: 0;
   }
+
   .systems-description{
       width: 820px;
       margin-left: 80px;
@@ -360,12 +371,26 @@ input[type=text] {
   }
   .interaction{
       width: 100%;
-      background-image: url('../images/8.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
+      //background-image: url('../images/8.jpg');
+      
+  }
+  .color-selector{
+    display: flex;
+    justify-content: center;
+  }
+  .color-text{
+    text-align: center;
+    margin-left: 8%;
+    padding-bottom: 5%;
+  }
+  #product{
+    align-items: center;
+    
+    height: 1000px;
+    margin-left: 15%;
   }
   .cart{
-      margin-top: 50%;
+      margin-bottom: 10%;
       margin-left: 83%;
   }
   .table-container{

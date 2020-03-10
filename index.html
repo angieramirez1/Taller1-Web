@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
     <script src="https://kit.fontawesome.com/82f8e72baf.js" crossorigin="anonymous"></script>
+    <script src="./scripts/main.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
     <title>Switch</title>
 </head>
@@ -367,7 +368,15 @@
         <!--Input interaction, selection-->
         <div class="interaction">
             <h5>GET IT <br>NOW.</h5>
-            <button class="btn5" onclick="changeColor()"></button>
+            <img id="product" src="./images/blue switch.png">
+            <h1 class="color-text">Select your color</h1>
+            <div class="color-selector">
+                
+                <button class="btn5 btn5--red" onclick="red()"></button>
+                <button class="btn5 btn5--blue" onclick="blue()"></button>
+                <button class="btn5 btn5--orange" onclick="orange()"></button>
+            </div>
+                
             <div class="cart">
                 <h2>59,99 USD</h2>
                 
@@ -439,6 +448,6 @@
     </div>
 
 
-    <script src="./scripts/main.js"></script>
+    
 </body>
 </html>
